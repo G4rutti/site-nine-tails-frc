@@ -136,7 +136,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     
 }
 .areasDeAtuacao h2{
@@ -259,6 +259,13 @@ nav {
     width: 100%;
     justify-content: center;
 }
+nav a{
+    padding: 12px;
+}
+
+.areasDeAtuacao h2{
+    margin-top: 0;
+}
 .areasDeAtuacao .container{
     display: flex;
     flex-direction: column;
@@ -273,9 +280,37 @@ nav {
 .areasDeAtuacao h2{
     margin-top: 10vh;
 }
+
 .nossaOrigem p{
     font-size: 1.2rem;
     width: 85vw;
     margin: auto;
+}
+.contatos{
+    margin: auto;
+    width: 80vw;
+}
+.tiposDeContatos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.type{
+    font-size: 0.7rem;
+}
+.type h3{
+    font-size: 1rem;
+}
+.faleConosco li{
+    cursor: pointer;
+    transition: transform 1s;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 80px;
+}
+.faleConosco ul li i{
+    font-size: var(--icon-size,6vw);
+
 }
 }
