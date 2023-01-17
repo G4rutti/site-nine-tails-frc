@@ -157,8 +157,6 @@ main{
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* width: 20vw;
-    height: 55vh; */
     width: 20vw;
     height: auto;
     padding: 2vw;
@@ -167,7 +165,7 @@ main{
     border-radius: 50px;
     background: #BD08C1;
     box-shadow: 20px 20px 60px #bebebe,
-                  -20px -20px 60px #ffffff;
+    -20px -20px 60px #ffffff;
 }
 .card:hover,
 .card:focus {
@@ -213,19 +211,31 @@ main{
 }
 .faleConosco ul{
     display: flex;
-    justify-content: center;
-    margin: 2vw;
+    justify-content:center;
 }
 .faleConosco li{
     cursor: pointer;
     transition: transform 1s;
-    margin-right: 2vw; 
-    margin-left: 2vw; 
+    margin: 2vw;
     padding: 1vw;
     border-radius: 50px;
 }
 .faleConosco ul li i{
     font-size: var(--icon-size,2vw);
+}
+.tiposDeContatos{
+    margin-top: 5vh;
+    margin: 2vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.type{
+    margin: 2vw;
+    text-align: center;
+}
+ul{
+    padding:0;
 }
 
 
