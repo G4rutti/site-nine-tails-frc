@@ -1,0 +1,92 @@
+.faleConosco{
+    width: 100vw;
+    text-align: center;
+}
+#youtube{
+    background-color: red;
+}
+#youtube i{
+    color: white;
+}
+#tiktok{
+    background-color: black;
+}
+#tiktok i{
+    color: white;
+}
+#instagram{
+    background-color: #BD08C1;
+}
+#instagram i{
+    color: white;
+}
+#twitter{
+    background-color: lightblue;
+}
+#twitter i{
+    color: white;
+}
+.faleConosco ul li:hover,
+.faleConosco ul li:focus {
+  transform: translateX(10px) scale(1.2);
+  
+}
+.faleConosco ul{
+    display: flex;
+    justify-content:center;
+}
+.faleConosco li{
+    cursor: pointer;
+    transition: transform 1s;
+    margin: 2vw;
+    padding: 1vw;
+    border-radius: 50px;
+}
+.faleConosco ul li i{
+    font-size: var(--icon-size,2vw);
+}
+.tiposDeContatos{
+    margin-top: 5vh;
+    margin: 2vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.type{
+    margin: 2vw;
+    text-align: center;
+}
+ul{
+    padding:0;
+}
+
+
+@media (max-width: 900px) {
+    .contatos{
+        margin: auto;
+        width: 80vw;
+    }
+    .tiposDeContatos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .type{
+        font-size: 0.7rem;
+    }
+    .type h3{
+        font-size: 1rem;
+    }
+    .faleConosco li{
+        cursor: pointer;
+        transition: transform 1s;
+        margin: 2vw;
+        padding: 2vw;
+        border-radius: 80px;
+    }
+    .faleConosco ul li i{
+        font-size: var(--icon-size,6vw);
+    
+    }
+}
