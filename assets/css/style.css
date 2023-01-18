@@ -7,29 +7,31 @@
     list-style-type: none;
 }
 
-#pgInicial{
-    color: #BD08C1;
-}
 main{
     width: 100vw;
 }
 .apresentacao{
-    border-top: gray solid;
     border-bottom: gray solid;
     background-color: #BD08C1;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: auto;
-    height: 40vh;
+    height: auto;
 }
 .apresentacao h1{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
     margin-bottom: 2vh;
+    margin-top: 2vh;
     font-size: 4rem;
     color: white;
 }
 .apresentacao p{
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 80vw;
     font-size: 1.5rem;
     color: black;
 }
@@ -132,33 +134,30 @@ main{
     justify-content: center;
     align-items: flex-start;
 }
-.card {
-    cursor: pointer;
-    transition: transform 1s;
+
+.apresentandoCompetidores{
+    width: 100vw;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 20vw;
+}
+.apresentandoCompetidores h2{
+    font-size: 3rem;
+    color: #BD08C1;
+}
+.apresentandoCompetidores span{
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+}
+.integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
     height: auto;
-    padding: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    border-radius: 50px;
-    background: #BD08C1;
-    box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+    justify-content: center;
 }
-.card:hover,
-.card:focus {
-  transform: translateX(10px) scale(1.2);
-  
-}
-.card p{
-    color: white;
-    width: 15vw;
-}
+
 
 
 
@@ -177,13 +176,6 @@ main{
 .areasDeAtuacao .container{
     display: flex;
     flex-direction: column;
-}
-.card{
-    margin-bottom: 5vh;
-    width: 85vw;
-}
-.card p{
-    width: 65vw;
 }
 .areasDeAtuacao h2{
     margin-top: 10vh;
