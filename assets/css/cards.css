@@ -9,6 +9,7 @@
     border-radius: 12px;
     box-shadow: inset 5px 5px 10px #a9a9aa77,
                     inset -5px -5px 10px #ffffff7e;
+    margin-bottom: 5vh;
 }
 
 .cardParcipante .img {
@@ -74,7 +75,13 @@
 }
 
 @media (max-width: 900px) {
-
+    .cardParcipante{
+        width: 45vw;
+    }
+    .cardParcipante a {
+        cursor: pointer;
+        padding: .4em 1em;
+    }
     .card{
         margin-bottom: 5vh;
         width: 85vw;
