@@ -9,7 +9,7 @@ header {
     padding: 0px;
 }
 #logo {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 nav {
@@ -80,6 +80,9 @@ nav a:hover:after{
     .header-container {
         flex-wrap: wrap;
         padding-left: 0;
+    }
+    #logo{
+        width: 150px;
     }
     img {
         width: 80px;
