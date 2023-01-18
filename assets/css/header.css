@@ -64,13 +64,13 @@ nav a {
 }
 
 nav a:hover:before {
-    border-color: #BD08C1;
+    border-color: #DE0CC8;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .3s;
   }
 nav a:hover:after{
-    border-color: #BD08C1;
+    border-color: #DE0CC8;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;

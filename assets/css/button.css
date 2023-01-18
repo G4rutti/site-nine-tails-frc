@@ -17,7 +17,7 @@ button {
   
   button::before {
     content: "";
-    background-color: #BD08C1;
+    background-color: #DE0CC8;
     width: 0;
     height: 100%;
     position: absolute;
