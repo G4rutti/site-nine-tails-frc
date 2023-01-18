@@ -11,6 +11,7 @@ main{
     width: 100vw;
 }
 .apresentacao{
+    width: 100vw;
     border-bottom: gray solid;
     background-color: #DE0CC8;
     display: flex;
@@ -183,6 +184,9 @@ img{
     display: none;
 }
 #social{
+    display: none;
+}
+#mentores{
     display: none;
 }
 
