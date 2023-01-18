@@ -134,7 +134,15 @@ main{
     justify-content: center;
     align-items: flex-start;
 }
-
+.color{
+    background-color: black;
+}
+img{
+    opacity: 0.5;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+}
 .apresentandoCompetidores{
     width: 100vw;
     margin-top: 5vh;
@@ -176,6 +184,10 @@ main{
 }
 #social{
     display: none;
+}
+
+.acoes{
+    margin-bottom: 10vh;
 }
 
 

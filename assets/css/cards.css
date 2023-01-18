@@ -56,24 +56,31 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    width: 18vw;
     height: auto;
     padding: 2vw;
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 50px;
     background: #BD08C1;
-    box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #bebebea4,
+    -20px -20px 60px #ffffff9f;
 }
 .card:hover,
 .card:focus {
   transform: translateX(10px) scale(1.2);
-  
+
 }
-.card p{
+.card span{
     color: white;
     width: 15vw;
+}
+
+.container-sobre{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 900px) {
@@ -86,9 +93,9 @@
     }
     .card{
         margin-bottom: 5vh;
-        width: 85vw;
+        width: 80vw;
     }
-    .card p{
+    .card span{
         width: 65vw;
     }
 
