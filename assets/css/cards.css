@@ -11,7 +11,10 @@
                     inset -5px -5px 10px #ffffff7e;
     margin-bottom: 5vh;
 }
-
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 .cardParcipante .img {
     height: 100px;
     margin-top: 1.6em;

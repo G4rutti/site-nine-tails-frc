@@ -160,8 +160,23 @@ main{
     height: auto;
     justify-content: center;
 }
+.bts{
+    margin-bottom: 5vh;
+}
 
-
+#eletrica{
+    /* display: inline; */
+    display: none;
+}
+#mecanica{
+    display: none;
+}
+#programacao{
+    display: none;
+}
+#social{
+    display: none;
+}
 
 
 @media (max-width: 900px) {
@@ -217,3 +232,4 @@ main{
 
 }
 }
+
