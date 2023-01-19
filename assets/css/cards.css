@@ -24,6 +24,12 @@
     box-shadow: -5px -5px 8px #ffffff7a, 
                     5px 5px 8px #a9a9aa7a;
 }
+.cardParcipante .img img{
+    height: 100px;
+    border-radius: 30%;
+    opacity: 1;
+    width: 100px;
+}
 
 .cardParcipante .info {
     text-align: center;
