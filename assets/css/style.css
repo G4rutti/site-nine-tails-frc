@@ -11,6 +11,8 @@ main{
     width: 100vw;
 }
 .flag{
+    display: flex;
+    opacity: 1;
     width: 25px;
     height: auto;
 }
