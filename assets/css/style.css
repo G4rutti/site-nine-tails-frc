@@ -215,6 +215,7 @@ img{
 }
 .areasDeAtuacao .container{
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 .areasDeAtuacao h2{
