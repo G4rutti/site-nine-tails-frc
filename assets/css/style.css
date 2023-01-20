@@ -10,6 +10,10 @@
 main{
     width: 100vw;
 }
+.flag{
+    width: 25px;
+    height: auto;
+}
 .apresentacao{
     width: 100vw;
     border-bottom: gray solid;
