@@ -146,7 +146,7 @@ main{
 }
 img{
     opacity: 0.5;
-    height: 70vh;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
 }
@@ -253,6 +253,9 @@ img{
 .faleConosco ul li i{
     font-size: var(--icon-size,6vw);
 
+}
+img{
+    height: 40vh;
 }
 }
 
