@@ -199,7 +199,18 @@ img{
 .acoes{
     margin-bottom: 10vh;
 }
-
+.apresentando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.apresentando h2{
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    font-size: 1.5rem
+}
 
 @media (max-width: 900px) {
 .apresentacao h1{
