@@ -49,7 +49,7 @@ main{
 }
 .fotosComAEquipe img{
     opacity: 0.5;
-    height: 60vh;
+    height: 80vh;
     object-fit: cover;
     object-position: center;
 }
