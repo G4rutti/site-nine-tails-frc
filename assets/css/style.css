@@ -53,11 +53,12 @@ main{
     object-fit: cover;
     object-position: center;
 }
-.texto h2{
+.texto h1{
+    text-align: center;
     display: flex;
     color: white;
     position: absolute;
-    font-size: 2rem;
+    font-size: 3rem;
     z-index: 1;
     top: 10vh;
     width: 100vw;
@@ -68,7 +69,7 @@ main{
     color: white;
     position: absolute;
     z-index: 1;
-    top: 30vh;
+    top: 50vh;
     width: 100vw;
     justify-content: center;
 }
